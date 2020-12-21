@@ -1,0 +1,644 @@
+* {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+	list-style-type: none;
+}
+
+html {
+	overflow-x: hidden;
+	max-width: 3200px;
+}
+
+header {
+	background-color: #1C1C1C;
+	width: 100%;
+	padding: 1%;
+	float: left;
+	padding-top: 0.9%;
+	position: fixed;
+}
+
+.zag_div {
+	float: left;
+	width: 20%;
+}
+
+.zagolovok {
+	color: #FAD723;
+	font-family: cursive;
+	margin-left: 10%;
+}
+
+.menu_div {
+	float: right;
+	width: 50%;
+	margin-top: 0.5%;
+	margin-left: 20%;
+}
+
+header a {
+	margin-right: 4%;
+	font-size: 150%;
+	color: #C4C4C4;
+}
+
+header a:hover {
+	color: white;
+	transition: all.6s ease;
+}
+
+.main_info {
+	width: 100%;
+}
+
+.main_info img {
+	width: 50%;
+	margin-left: 1%;
+	margin-top: 7%;
+}
+
+.zagolovok_2 {
+	width: 45%;
+	float: right;
+	margin-top: 10%;
+}
+
+.zagolovok_2 a {
+	border: 0px solid grey;
+	padding: 5%;
+	font-size: 200%;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #1D99E6 0%, #1D73E6 51%, #1D99E6 100%);
+	background-size: 200% auto;	
+	transition: .5s;
+}
+
+.zagolovok_2 a:hover {
+	background-position: right center;
+	padding: 10%;
+}
+
+.zagolovok_2 h1 {
+	font-weight: bold;
+	color: black;
+	font-size: 400%;
+	text-align: center;
+}
+.zagolovok_2 span {
+	color: #5E5E5E;
+	font-size: 300%;
+	text-align: right;
+	margin-left: 5%;
+}
+
+.zagolovok_2 div {
+	margin-left: 5%;
+}
+
+.button {
+	margin-top: 10%;
+	width: 20%;
+	padding-left: 25%;
+}
+
+.main_info2 {
+	width: 100%;
+	background-color: #0A2909;
+	height: auto;
+}
+
+.main_info2 img {
+	width: 50%;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+.zagolovok_22 {
+	width: 45%;
+	float: left;
+}
+
+.zagolovok_22 button {
+	border: 0px solid grey;
+	padding: 5%;
+	font-size: 100%;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #1D99E6 0%, #1D73E6 51%, #1D99E6 100%);
+	background-size: 200% auto;	
+	transition: .5s;
+}
+
+.zagolovok_22 button:hover {
+	background-position: right center;
+	padding: 10%;
+}
+
+.zagolovok_22 h1 {
+	font-weight: bold;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10%;
+}
+.zagolovok_22 span {
+	color: white;
+	font-size: 130%;
+	text-align: left;
+	margin-left: 0;
+
+}
+
+.zagolovok_22 div {
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
+.button2 {
+	margin-top: 10%;
+	width: 20%;
+	padding-left: 35%;
+}
+
+hr {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.main_info3 * {
+	width: 100%;
+	color: black;
+}
+
+.zagolovok_32 h1 {
+	color: black;
+	margin-left: 40%;
+}
+
+.ul_1 {
+	float: left;
+	width: 40%;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 140%;
+}
+.ul_1 ul li {
+	margin-bottom: 8%;
+}
+
+.ul_2 {
+	float: left;
+	width: 40%;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 140%;
+}
+
+.ul_img {
+	width: 25%;
+	float: left;
+	margin-right: 2%;
+}
+
+.another_li {
+	margin-bottom: 18%;
+}
+
+.button2 {
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	margin-left: 8%;
+}
+.download {
+	border: 0px solid grey;
+	padding: 0.5%;
+	font-size: 200%;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #1D99E6 0%, #1D73E6 51%, #1D99E6 100%);
+	background-size: 200% auto;	
+	transition: .5s;
+	color: white;
+}
+.download:hover {
+	background-position: right center;
+	padding: 1%;
+}
+
+.footer {
+	background-color: #1C1C1C;
+	width: 100%;
+	padding: 1%;
+	float: left;
+	padding-top: 0.9%;
+}
+
+.zagolovok_footer {
+	color: #FAD723;
+	font-family: cursive;
+	margin-left: 10%;
+}
+
+.footer_zag {
+	float: left;
+	width: 20%;
+}
+
+.menu_div2 {
+	float: left;
+	width: 40%;
+	margin-top: 0.5%;
+	margin-left: 5%;
+}
+
+.menu_div2 a {
+	margin-right: 10%;
+	font-size: 100%;
+	color: #C4C4C4;
+}
+
+.menu_div2 a:hover {
+	color: white;
+	transition: all.6s ease;
+}
+
+@media screen and (max-width: 600px) {
+* {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+	list-style-type: none;
+	font-size: 100%;
+}
+
+html {
+	overflow-x: hidden;
+	max-width: 3200px;
+}
+
+header {
+	background-color: #1C1C1C;
+	width: 100%;
+	padding: 1%;
+	float: left;
+	padding-top: 0.9%;
+	position: fixed;
+}
+
+.zag_div {
+	float: left;
+	width: 20%;
+}
+
+.zagolovok {
+	color: #FAD723;
+	font-family: cursive;
+	margin-left: 10%;
+}
+
+.menu_div {
+	float: right;
+	width: 50%;
+	margin-top: 0.5%;
+	margin-left: 20%;
+}
+
+header a {
+	margin-right: 4%;
+	font-size: 150%;
+	color: #C4C4C4;
+}
+
+header a:hover {
+	color: white;
+	transition: all.6s ease;
+}
+
+.main_info {
+	width: 100%;
+}
+
+.main_info img {
+	width: 100%;
+	text-align: center;
+	margin-top: 50%;
+}
+
+.zagolovok_2 {
+	width: 100%;
+	float: right;
+	margin-top: 10%;
+}
+
+.zagolovok_2 a {
+	border: 0px solid grey;
+	padding: 5%;
+	font-size: 200%;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #1D99E6 0%, #1D73E6 51%, #1D99E6 100%);
+	background-size: 200% auto;	
+	transition: .5s;
+	width: 50%;
+}
+
+.zagolovok_2 a:hover {
+	background-position: right center;
+	padding: 10%;
+}
+
+.zagolovok_2 h1 {
+	font-weight: bold;
+	color: black;
+	font-size: 400%;
+	text-align: center;
+}
+.zagolovok_2 span {
+	color: #5E5E5E;
+	font-size: 300%;
+	text-align: right;
+	margin-left: 5%;
+}
+
+.zagolovok_2 div {
+	margin-left: 5%;
+}
+
+.button {
+	margin-top: 10%;
+	width: 20%;
+	padding-left: 25%;
+}
+
+.main_info2 {
+	width: 100%;
+	background-color: #0A2909;
+	height: auto;
+	margin-bottom: 10%;
+}
+
+.main_info2 img {
+	width: 100%;
+	margin-left: 1%;
+	margin-top: 1%;
+	visibility: hidden;
+}
+
+.zagolovok_22 {
+	width: 100%;
+	float: left;
+}
+
+.zagolovok_22 button {
+	border: 0px solid grey;
+	padding: 5%;
+	font-size: 100%;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #1D99E6 0%, #1D73E6 51%, #1D99E6 100%);
+	background-size: 200% auto;	
+	transition: .5s;
+}
+
+.zagolovok_22 button:hover {
+	background-position: right center;
+	padding: 10%;
+}
+
+.zagolovok_22 h1 {
+	font-weight: bold;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10%;
+}
+.zagolovok_22 span {
+	color: white;
+	font-size: 130%;
+	text-align: left;
+	margin-left: 0;
+
+}
+
+.zagolovok_22 div {
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
+.button2 {
+	margin-top: 10%;
+	width: 40%;
+	padding-left: 35%;
+}
+
+hr {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.main_info3 * {
+	width: 100%;
+	color: black;
+}
+
+.main_info3 {
+	margin-top: 10%;
+}
+
+
+.zagolovok_32 h1 {
+	color: black;
+	margin-left: 40%;
+}
+
+.ul_1 {
+	float: left;
+	width:30%;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 100%;
+}
+.ul_1 ul li {
+	margin-bottom: 8%;
+}
+
+.ul_2 {
+	float: left;
+	width: 40%;
+	margin-top: 3%;
+	margin-left: 20%;
+	font-size: 100%;
+}
+
+.ul_img {
+	width: 25%;
+	float: left;
+	margin-right: 2%;
+}
+
+.another_li {
+	margin-bottom: 18%;
+}
+
+.button2 {
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	margin-left: 8%;
+}
+.download {
+	border: 0px solid grey;
+	padding: 0.5%;
+	font-size: 200%;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #1D99E6 0%, #1D73E6 51%, #1D99E6 100%);
+	background-size: 200% auto;	
+	transition: .5s;
+	color: white;
+}
+.download:hover {
+	background-position: right center;
+	padding: 1%;
+}
+
+.footer {
+	background-color: #1C1C1C;
+	width: 100%;
+	padding: 1%;
+	float: left;
+	padding-top: 0.9%;
+}
+
+.zagolovok_footer {
+	color: #FAD723;
+	font-family: cursive;
+	margin-left: 10%;
+}
+
+.footer_zag {
+	float: left;
+	width: 20%;
+}
+
+.menu_div2 {
+	float: left;
+	width: 40%;
+	margin-top: 0.5%;
+	margin-left: 5%;
+}
+
+.menu_div2 a {
+	margin-right: 10%;
+	font-size: 100%;
+	color: #C4C4C4;
+}
+
+.menu_div2 a:hover {
+	color: white;
+	transition: all.6s ease;
+}
+}
+
+@media screen and (max-width: 1400px) {
+	.main_info2 {
+	width: 100%;
+	background-color: #0A2909;
+	height: 600px;
+}
+}
+
+/*download.html*/
+
+.down_v {
+	width: 100%;
+	color: black;
+}
+
+.down_v span {
+	color: black;
+}
+
+.down_v h1 {
+	color: black;
+	text-align: center;
+}
+
+.span {
+	color: black;
+	margin-left: 5%;
+	width: 30%;
+}
+
+.instruction ol li {
+	color: black;
+	font-size: 120%;
+}
+
+.instruction {
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+.instruction h1 {
+	margin-bottom: 4%;
+	color: black;
+	margin-left: 32%;
+}
+
+.instruction span {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	color: black;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+.instruction span {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	color: black;
+	text-align: center;
+	width: 95%;
+}
+.instruction {
+	width: 95%;
+}
+.down_v {
+	width: 100%;
+	color: black;
+	margin-top: 15%;
+}
+.span {
+	color: black;
+	margin-left: 5%;
+	width: 30%;
+}
+.button2 {
+	float: left;
+}
+}
+
+/*contacts.html*/
+
+.contacts * {
+	color: black;
+}
+
+.contacts h1 {
+	margin-left: 30%;
+}
+
+.span2 {
+	margin-left: 5%;
+	font-size: 120%;
+}
+@media screen and (max-width: 600px) {
+.contacts {
+	margin-top: 15%;
+	width: 95%;
+}
+}
